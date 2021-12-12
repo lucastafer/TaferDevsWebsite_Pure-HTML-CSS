@@ -10,32 +10,128 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://fontawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<section class="header">
+<section id="home" class="header">
     <nav>
         <a href="index.html"><img src="images/taferdevswobg.png"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contacts">CONTACT</a></li>
             </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     
 <div class="text-box">
-    <h1>My First Website</h1>
-    <p>A tafer.devs oferece a criação de sites institucionais e ecommerce com excelente performance, qualidade e com o melhor preço do mercado.<br>Vamos iniciar o seu projeto?</p>
+    <h1>More than developers.</h1>
     <br>
-    <a href="" class="hero-btn">Faça seu orçamento!</a>
+    <p>tafer.devs offers the creation of websites and applications with excellent performance, quality and the best price in the market, offering all the support your company needs to grow your business.<br><br>Let's start your project?</p>
+    <br><br>
+    <a target="_blank" href="mailto: lucas.taferdevs@gmail.com" class="hero-btn">Make your budget</a>
 </div>
+
 </section>
 
-<!------JavaScript for Toggle Menu------>
+<!---- about ---->
+
+<section id="about" class="about">
+    <h1>About Us</h1>
+    <br>
+    <div class="about-box">
+        <p>We have been operating in the development market since 2021, offering customized solutions in the areas of web page development, mobile apps, chatbots and more.</p>
+        <br><br><br>
+        <p id="p-strong">We are more than just developers.</p> 
+        <br><br><br>
+        <p>We are concerned with achieving our clients' market objectives in partnership, making their mission ours, offering a mix of solutions that fit within our competences and the products and services we offer.</p>
+    </div>
+</section>
+
+<!---- services ---->
+
+<section id="services" class="services">
+    <h1>Our Services</h1>
+    <p>We at taferdevs offer the complete solution for your business.<br>Count on us and on our support for the development of the services below:</p>
+    <br>
+    <div class="services-content">
+      <div class="website-icon">
+        <img src="images/webicon.png" class="image">
+          <div class="overlay">
+            <h3>WEBSITES</h3>
+            <p>Websites are no longer a differentiator for business, becoming today essential for every company, to show services, location, values and more. Count on us to develop a completely customized website for your business.</p>
+          </div>
+      </div>
+    </div>
+    <div class="services-content">
+      <div class="mobile-icon">
+        <img src="images/mobileicon.png" class="image">
+          <div class="overlay">
+            <h3>MOBILE APPS</h3>
+            <p>In an increasingly dynamic and connected world through smartphones, it's a great differential that the company also has a mobile version of its business. Count on us to develop your own mobile app anyway you want, whether for Android or iOS.</p>
+          </div>
+      </div>
+    </div>
+    <div class="services-content">
+      <div class="chatbot-icon">
+        <img src="images/boticon.png" class="image">
+          <div class="overlay">
+            <h3>CHATBOTS</h3>
+            <p>Chatbots is a new technology who acts as a virtual assistant for your business. With this technology, we develop an artificial intelligence tailored to your needs that automatically interacts with your customers.</p>
+          </div>
+      </div>
+    </div>
+</section>
+
+<!---- portfolio ---->
+
+<section id="portfolio" class="portfolio">
+  <h1>Portfolio</h1>
+  <p>Some of our products and services already done.</p>
+
+  <div class="portfolio-content">
+    <div class="project1">
+      <a target="_blank" href="file:///home/ltafer/TaferDevs%20Website/index.html"><img src="images/sitetaferdevs.png"></a>
+      <p>TaferDevs.com<br><i>Developer Website</i></p>
+    </div>
+    <div class="project2">
+      <a target="_blank" href="/home/ltafer/Curso OneBitCode/CSS/10 - Recriando um Site com CSS 2/index.html"><img src="images/blog.png"></a>
+      <p>TaferBlogs<br><i>Online Microblog</i></p>
+    </div>
+  <br>
+  </div>
+  <div target="_blank" class="work-in-progress">
+    <img src="images/workinprogress.png">
+    <p>Work in progress...</p>
+</section>
+
+<!------ contacts ------> 
+
+<footer id="contacts" class="contacts">
+    <h1>Contact Us</h1>
+    <p>We are present in the majority of social medias. Select your favourite above and talk with us!</p>
+    <div id="contacts" class="contacts-bar">
+      <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook fa-4x"></a>
+      <a target="_blank" href="mailto: lucas.taferdevs@gmail.com" class="fa fa-google fa-4x"></a>
+      <a target="_blank" href="https://www.linkedin.com/" class="fa fa-linkedin fa-4x"></a>
+      <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram fa-4x"></a>
+      <a target="_blank" href="https://www.whatsapp.com/?lang=pt_br" class="fa fa-whatsapp fa-4x"></a>
+      <a target="_blank" href="https://web.telegram.org/z/" class="fa fa-telegram fa-4x"></a>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2021 TaferDevs.</p>
+  </div>
+</footer>
+
+
+<!------ JavaScript for Toggle Menu ------>
 <script>
 
     var navLinks = document.getElementById("navLinks");
