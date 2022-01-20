@@ -91,7 +91,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-device-width: 1360px){
+@media(max-device-width: 1366px){
     .text-box{
         width: 90%;
         color: #fff;
@@ -227,7 +227,7 @@ h1{
     padding: 10px;
 }
 
-@media(max-device-width: 1360px){
+@media(max-width: 1366px){
     .about h1{
         font-size: 56px;
         font-weight: 600;
@@ -240,7 +240,7 @@ h1{
     }    
     #p-strong{
         color:#fff;
-        font-size: 56px;
+        font-size: 36px;
         font-weight: 800;
         line-height: 22px;
         padding: 10px;
@@ -373,7 +373,7 @@ div.services-content{
     opacity: 1;
 }
 
-@media(max-device-width: 1360px){
+@media(max-device-width: 1366px){
 
     .services-content{
         margin-top: 5%;
@@ -682,7 +682,7 @@ div.services-content{
      transform:scale(1.2);
 }
 
-@media(max-device-width: 1360px){
+@media(max-device-width: 1366px){
     .portfolio{
         width: 100%;
         margin: auto;
@@ -705,22 +705,22 @@ div.services-content{
     }
     
     .portfolio-content{
-        margin: auto;
-        display: flex;
+        margin: 100px auto 100px auto;
+        display: list-item;
         justify-content: space-between;
         position: relative;
     }
     
     .project1 p {
         padding-top: 30px;
-        margin: auto 100px auto 180px;
+        margin: auto 100px auto 100px;
         font-size: 25px;
     }
     
     .project1 img{
         width: 400px;
         height: 200px;
-        margin: auto 100px auto 180px;
+        margin: auto 100px auto 100px;
         -webkit-transition: all 1s ease; /* Safari and Chrome */
         -moz-transition: all 1s ease; /* Firefox */
         -ms-transition: all 1s ease; /* IE 9 */
@@ -740,14 +740,14 @@ div.services-content{
     
     .project2 p {
         padding-top: 30px;
-        margin: auto 180px auto 100px;
+        margin: auto 100px auto 100px;
         font-size: 25px;
     }
     
     .project2 img{
         width: 400px;
         height: 200px;
-        margin: auto 150px auto 100px;
+        margin: auto 100px auto 100px;
         -webkit-transition: all 1s ease; /* Safari and Chrome */
         -moz-transition: all 1s ease; /* Firefox */
         -ms-transition: all 1s ease; /* IE 9 */
@@ -972,7 +972,7 @@ div.services-content{
     padding-bottom: 30px;
 }
 
-@media(max-device-width: 1360px){
+@media(max-device-width: 1366px){
     .contacts p{
         font-size: 25px;
     }
